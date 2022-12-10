@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Diagnosis"
+    android:paddingRight="5dp"
+    android:paddingLeft="5dp"
+    android:background="@color/white">
+
+    <TableRow
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#18978F"
+            android:text="DIANÓSTICO"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="5dp"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/final_diagnosis"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#FFF7BE"
+            android:text="DIANÓSTICO"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="6dp"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="#B6F6A8"
+            android:text="  A. Migraña sin aura"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="18dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="3dp"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="#B6F6A8"
+            android:text="  B. Migraña con aura"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="18dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="3dp"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="#B6F6A8"
+            android:text="  C. Migraña crónica"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="18dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="3dp"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="#B6F6A8"
+            android:text="  D. Cefalea tensional infrecuente"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="18dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="3dp"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="#B6F6A8"
+            android:text="  E. Cefalea tensional frecuente"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="18dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="3dp"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="#B6F6A8"
+            android:text="  F. Cefalea tensional crónica"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="18dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="3dp"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="#B6F6A8"
+            android:text="  G. Cefalea en racimos epísódica"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="18dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="3dp"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="#B6F6A8"
+            android:text="  H. Cefalea en racimos crónica"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="18dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="3dp"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="#B6F6A8"
+            android:text="  I. No determinado"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="18dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="3dp"
+            />
+    </TableRow>
+
+</TableLayout>

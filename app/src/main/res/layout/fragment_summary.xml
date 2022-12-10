@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Summary"
+    android:paddingRight="5dp"
+    android:paddingLeft="5dp"
+    android:background="@color/white">
+
+    <TableRow
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#18978F"
+            android:text="CARACTERÍSTICAS DE LA CEFALEA"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="6dp"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="#FFF7BE"
+            android:text="¿Duración menor o igual a 180 minutos?"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="3dp"
+            />
+
+        <TextView
+            android:id="@+id/answer_duration"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="#FFF7BE"
+            android:text="SI"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="#B6F6A8"
+            android:text="¿Localización bilateral?"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="3dp"
+            />
+
+        <TextView
+            android:id="@+id/answer_location"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="#B6F6A8"
+            android:text="SI"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="#FFF7BE"
+            android:text="¿Tipo de dolor?"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="3dp"
+            />
+
+        <TextView
+            android:id="@+id/answer_type"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="#FFF7BE"
+            android:text="Pulsátil"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="#B6F6A8"
+            android:text="¿Frecuencia mayor o igual a 15 dias/mes?"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="3dp"
+            />
+
+        <TextView
+            android:id="@+id/answer_frequency_15"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="#B6F6A8"
+            android:text="SI"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="#FFF7BE"
+            android:text="¿Frecuencia mayor o igual a 1 día/mes?"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="3dp"
+            />
+
+        <TextView
+            android:id="@+id/answer_frequency_1"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="#FFF7BE"
+            android:text="SI"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="#B6F6A8"
+            android:text="¿Dolor empeora con el ejercicio?"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="3dp"
+            />
+
+        <TextView
+            android:id="@+id/answer_exercise"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="#B6F6A8"
+            android:text="SI"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="#FFF7BE"
+            android:text="¿Fotofobia?"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="3dp"
+            />
+
+        <TextView
+            android:id="@+id/answer_photophobia"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="#FFF7BE"
+            android:text="SI"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="#B6F6A8"
+            android:text="¿Fonofobia?"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="3dp"
+            />
+
+        <TextView
+            android:id="@+id/answer_phonophobia"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="#B6F6A8"
+            android:text="SI"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="#FFF7BE"
+            android:text="¿Algún síntoma de aura presente?"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="3dp"
+            />
+
+        <TextView
+            android:id="@+id/answer_aura"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="#FFF7BE"
+            android:text="SI"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="#B6F6A8"
+            android:text="¿Algún síntoma autonómico presente?"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="3dp"
+            />
+
+        <TextView
+            android:id="@+id/answer_autonomic"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="#B6F6A8"
+            android:text="SI"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="#FFF7BE"
+            android:text="¿Dolor empeora con alcohol, nitroglicerina o histamina?"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="3dp"
+            />
+
+        <TextView
+            android:id="@+id/answer_alcohol"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="#FFF7BE"
+            android:text="SI"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="#B6F6A8"
+            android:text="¿Remisión menor a 3 meses o no remisión mayor a 12 meses?"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="3dp"
+            />
+
+        <TextView
+            android:id="@+id/answer_remission"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="#B6F6A8"
+            android:text="SI"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            />
+
+    </TableRow>
+
+</TableLayout>
