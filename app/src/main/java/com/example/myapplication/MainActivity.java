@@ -25,6 +25,14 @@ public class MainActivity extends AppCompatActivity {
     public static VoiceCmdReceiver mVoiceCmdReceiver;
     public static boolean mRecognizerActive = false;
 
+    // Database variables
+    public static final String DATABASE_NAME = "medikhelper";
+    public static final String url = "jdbc:mysql://database-medikhelper.czy5d4c192a3.us-east-1.rds.amazonaws.com:3306/" +
+            DATABASE_NAME;
+    public static final String username = "admin", password = "medikhelper123";
+
+    public static final String TABLE_NAME = "Final_Diagnosis";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
